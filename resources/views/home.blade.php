@@ -47,7 +47,6 @@ Charts::create('donut', 'highcharts')
         ->values([5, 10, 20])
         ->dimensions(1000, 500)
         ->responsive(false);
-        return view('chart', $data);
 </pre>
                     <img src="{{ asset('images/donutchart.png') }}" class="img-responsive">
                 </div>
