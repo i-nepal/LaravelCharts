@@ -10,6 +10,8 @@ https://erik.cat/projects/Charts/docs/5
 ## Installation
 ### Download
 Download to your local machine
+and do: <code>composer install</code><br>
+to download all the dependencies
 ### Publish Config
 <code>php artisan vendor:publish</code><br>
 This will create `charts.php` inside `config` folder.
